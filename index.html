@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>luxwear.com</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f6f6f6;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1400x500?text=LuxWear+Fashion') no-repeat center;
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 3em;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px #000;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .product {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .product h2 {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .product p {
+      color: #777;
+    }
+    .about, .contact {
+      padding: 40px;
+      background: white;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LuxWear</h1>
+    <nav>
+      <a href="#">Hem</a>
+      <a href="#products">Produkter</a>
+      <a href="#about">Om oss</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    Upptäck stil och lyx
+  </div>
+
+  <section class="products" id="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400?text=Replay+Slim+Jeans+Svarta" alt="Replay Svarta" />
+      <h2>Replay Slim Anbass – Svarta</h2>
+      <p>499 kr</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400?text=Replay+Slim+Jeans+Ljusblå" alt="Replay Ljusblå" />
+      <h2>Replay Slim Anbass – Ljusblå (Blue Cotton)</h2>
+      <p>499 kr</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400?text=Replay+Slim+Jeans+Navy" alt="Replay Navy Blue" />
+      <h2>Replay Slim Anbass – Navy Blue</h2>
+      <p>499 kr</p>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>Om oss</h2>
+    <p>Vi är ett nystartat företag som säljer trendiga designerkläder.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Kontakt</h2>
+    <p>Maila oss på: <a href="mailto:luxwear.com2@gmail.com">luxwear.com2@gmail.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 LuxWear – Alla rättigheter förbehållna
+  </footer>
+
+</body>
+</html>
