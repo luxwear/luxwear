@@ -1,0 +1,40 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  background: #111;
+  padding: 10px;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.slide {
+  text-align: center;
+}
+.slide img {
+  width: 200px;
+  height: auto;
+}
+section {
+  padding: 40px;
+  text-align: center;
+}
